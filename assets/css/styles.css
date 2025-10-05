@@ -101,7 +101,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   transition: background 1s;
-  text-shadow: 3px 4px 6px  white;
+  text-shadow: 3px 6px 6px  white;
 }
 
 main {
@@ -178,8 +178,10 @@ header::before {
 }
 
 .header-content img {
-  width: 80%;
+  width: 100%;
+  filter: drop-shadow(10px 20px 10px  rgba(0, 0, 0, 0.8));
 }
+
 
 .header-content p {
   margin: 30px 0 50px;
@@ -426,5 +428,5 @@ footer::after {
 }
  footer p {
   color: red;
-  text-shadow: 3px 4px 6px white;
+  text-shadow: 3px 6px 6px white;
  }
