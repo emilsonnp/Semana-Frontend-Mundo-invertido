@@ -101,6 +101,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   transition: background 1s;
+  text-shadow: 3px 4px 6px  white;
 }
 
 main {
@@ -425,4 +426,5 @@ footer::after {
 }
  footer p {
   color: red;
+  text-shadow: 3px 4px 6px white;
  }
